@@ -2,21 +2,23 @@
 
 ## Contributors 
 - Anwar
-- Jaxson
+- Jaxsan
 - Sami
 - Sidar
 - Melissa
 
 ## Installation
 - Clone or download the repo
-- Open terminal and navigate to api folder
+- Open terminal and navigate to api folder & client folder
 - Run npm install to install dependencies
 
 ## Usage
-- Run docker compose up to get the containers up
-- Run the following for tests
-docker-compose.test.yaml up -d
-docker exec -it debug_test_api bash -c "npm install && npm test"
+- Run `bash _scripts/startDev.sh` to get the API and DB containers running and then open the client on live server
+- Run `bash _scripts/startTest.sh` to execute the tests on the backend
+- Run `bash _scripts/tearDown.sh` to stop and delete the containers. 
+
+Do not run startDev and startTest simulanteously. 
+
 
 ## Design
 ### Homepage
@@ -48,3 +50,4 @@ docker exec -it debug_test_api bash -c "npm install && npm test"
 
 ## Challenges
 - Streak 
+

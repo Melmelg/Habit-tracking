@@ -20,20 +20,19 @@ docker exec -it debug_test_api bash -c "npm install && npm test"
 
 ## Design
 ### Homepage
-<img width="383" alt="Screenshot 2022-04-13 at 11 20 16" src="https://user-images.githubusercontent.com/58670404/163163053-8f8bda46-dd80-486f-aa7b-5b850d85144a.png">
+<img width="345" alt="Screenshot 2022-04-13 at 12 29 05" src="https://user-images.githubusercontent.com/58670404/163204210-cdc2743b-8ba2-4479-b72d-7708e34bddff.png">
 
 ### Register
-<img width="384" alt="Screenshot 2022-04-13 at 11 20 30" src="https://user-images.githubusercontent.com/58670404/163163622-7cc36463-53c2-4c14-b545-746c0185199a.png"> 
+<img width="345" alt="Screenshot 2022-04-13 at 12 29 20" src="https://user-images.githubusercontent.com/58670404/163204164-80369f38-0a7f-4458-8da4-1df97a3b9f0d.png">
 
 ### Login
-<img width="384" alt="Screenshot 2022-04-13 at 11 20 25" src="https://user-images.githubusercontent.com/58670404/163163589-7970052d-c04d-430d-882c-2b8157f27fad.png">
+<img width="345" alt="Screenshot 2022-04-13 at 12 29 12" src="https://user-images.githubusercontent.com/58670404/163204071-e29536c1-1116-4a41-a3b1-d270b6ec2f90.png">
  
-
 ### Habits
-<img width="383" alt="Screenshot 2022-04-13 at 11 20 34" src="https://user-images.githubusercontent.com/58670404/163164072-c9ff44ac-b607-4c76-9393-de157b69f205.png">
+<img width="345" alt="Screenshot 2022-04-13 at 12 29 30" src="https://user-images.githubusercontent.com/58670404/163203977-4793ff8d-ac74-4b5c-aedc-119d90b8d8ba.png">
 
 ### Add Habits
-<img width="382" alt="Screenshot 2022-04-13 at 11 20 40" src="https://user-images.githubusercontent.com/58670404/163164197-10d7945c-b053-40c8-8a85-6f1b11e7f737.png">
+<img width="345" alt="Screenshot 2022-04-13 at 12 29 38" src="https://user-images.githubusercontent.com/58670404/163203916-de231e8e-eac0-498f-8bb5-9eb6a8a1e161.png">
 
 ## Test
 - Test coverage 88%

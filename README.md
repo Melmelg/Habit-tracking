@@ -19,7 +19,21 @@ docker-compose.test.yaml up -d
 docker exec -it debug_test_api bash -c "npm install && npm test"
 
 ## Design
+### Homepage
+<img width="383" alt="Screenshot 2022-04-13 at 11 20 16" src="https://user-images.githubusercontent.com/58670404/163163053-8f8bda46-dd80-486f-aa7b-5b850d85144a.png">
 
+### Register
+<img width="384" alt="Screenshot 2022-04-13 at 11 20 30" src="https://user-images.githubusercontent.com/58670404/163163622-7cc36463-53c2-4c14-b545-746c0185199a.png"> 
+
+### Login
+<img width="384" alt="Screenshot 2022-04-13 at 11 20 25" src="https://user-images.githubusercontent.com/58670404/163163589-7970052d-c04d-430d-882c-2b8157f27fad.png">
+ 
+
+### Habits
+<img width="383" alt="Screenshot 2022-04-13 at 11 20 34" src="https://user-images.githubusercontent.com/58670404/163164072-c9ff44ac-b607-4c76-9393-de157b69f205.png">
+
+### Add Habits
+<img width="382" alt="Screenshot 2022-04-13 at 11 20 40" src="https://user-images.githubusercontent.com/58670404/163164197-10d7945c-b053-40c8-8a85-6f1b11e7f737.png">
 
 ## Test
 - Test coverage 88%

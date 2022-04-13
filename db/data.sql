@@ -18,4 +18,3 @@ CREATE TABLE habits (
     streak int NOT NULL,
     frequency varchar NOT NULL
 );
-

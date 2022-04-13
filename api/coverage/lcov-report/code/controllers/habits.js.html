@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.46% </span>
+                <span class="strong">73.91% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>23/26</span>
+                <span class='fraction'>17/23</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">80% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>4/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.46% </span>
+                <span class="strong">73.91% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>23/26</span>
+                <span class='fraction'>17/23</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -120,18 +120,11 @@
 <a name='L55'></a><a href='#L55'>55</a>
 <a name='L56'></a><a href='#L56'>56</a>
 <a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a>
-<a name='L59'></a><a href='#L59'>59</a>
-<a name='L60'></a><a href='#L60'>60</a>
-<a name='L61'></a><a href='#L61'>61</a>
-<a name='L62'></a><a href='#L62'>62</a>
-<a name='L63'></a><a href='#L63'>63</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<a name='L58'></a><a href='#L58'>58</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -139,10 +132,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -165,9 +157,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -191,20 +181,17 @@
 &nbsp;
 async function createHabit(req, res) {
   try {
-    console.log(typeof +req.body.repetition);
     const habit = await Habit.createHabit(req.body);
-    console.log(habit);
     res.status(201).send({ habit });
   } catch (err) {
     res.status(500).json({ msg: "Habit could not be created!" });
   }
 }
 &nbsp;
-async function filterHabitsByEmail(req, res) {
-  try {
-    console.log('filter by email functionc alled')
-    const habit = await Habit.filterHabitsByEmail(req.params);
-    res.status(200).send(habit);
+async function <span class="fstat-no" title="function not covered" >filterHabitsByEmail(</span>req, res) {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+    const habit = <span class="cstat-no" title="statement not covered" >await Habit.filterHabitsByEmail(req.params);</span>
+<span class="cstat-no" title="statement not covered" >    res.status(200).send(habit);</span>
   } catch (err) {
 <span class="cstat-no" title="statement not covered" >    res.status(500).json({ msg: "Could not find habit for this user" });</span>
   }
@@ -219,19 +206,17 @@ async function findHabitById(req, res) {
   }
 }
 &nbsp;
-async function increaseRepCounter(req, res){
-  try{
+async function increaseRepCounter(req, res) {
+  try {
     // const habit = await Habit.findHabitById(req.params)
     // console.log(habit)
-    const result = await Habit.increaseRepCounter(req.params.id)
-    console.log(result)
-    res.status(200).send(result)
-  }
-  catch(err){
-    res.status(500).json({msg:"loser"})
+    const result = await Habit.increaseRepCounter(req.params.id);
+    console.log(result);
+    res.status(200).send(result);
+  } catch (err) {
+    res.status(500).json({ msg: "loser" });
   }
 }
-&nbsp;
 &nbsp;
 async function deleteHabit(req, res) {
   try {
@@ -247,7 +232,7 @@ module.exports = {
   filterHabitsByEmail,
   findHabitById,
   deleteHabit,
-  increaseRepCounter
+  increaseRepCounter,
 };
 &nbsp;</pre></td></tr></table></pre>
 
@@ -256,7 +241,7 @@ module.exports = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Wed Apr 13 2022 13:47:11 GMT+0000 (Coordinated Universal Time)
+                at Wed Apr 13 2022 15:38:03 GMT+0000 (Coordinated Universal Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>

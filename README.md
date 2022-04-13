@@ -37,7 +37,7 @@ docker exec -it debug_test_api bash -c "npm install && npm test"
 
 ## Test
 - Test coverage 88%
-![Capture](https://user-images.githubusercontent.com/58670404/163196943-3aed2e5d-4359-44ad-8b9f-c7e261f36ea4.PNG)
+
 
 
 ## Wins

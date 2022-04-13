@@ -37,13 +37,13 @@ docker exec -it debug_test_api bash -c "npm install && npm test"
 
 ## Test
 - Test coverage 88%
-Sceenshot
+- Sceenshot
 
 ## Wins
 - After registering the page automatically login 
 - Add habit form pops down when clicked on 
-- Each habit can be deleted using the X button on the right 
-- + button on the left increase the count by one for each habit
+- Each habit can be deleted using the `X` button on the right 
+- `+` button on the left increase the count by one for each habit
 - Once the counter reached the goal, the habit will be crossed out 
 
 ## Challenges

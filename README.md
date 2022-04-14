@@ -1,7 +1,7 @@
 ## Habit-tracking- Libits
 
 ## Contributors 
-- Anwar
+- Anwar 
 - Jaxsan
 - Sami
 - Sidar
@@ -31,14 +31,14 @@ Do not run startDev and startTest simulanteously.
 <img width="290" alt="Screenshot 2022-04-13 at 17 49 19" src="https://user-images.githubusercontent.com/58670404/163230791-9abdd48d-a23a-44e0-b437-d59997ded62d.png">
 
 ### Habits
-<img width="345" alt="Screenshot 2022-04-13 at 12 29 30" src="https://user-images.githubusercontent.com/58670404/163203977-4793ff8d-ac74-4b5c-aedc-119d90b8d8ba.png">
+<img width="290" alt="Screenshot 2022-04-14 at 10 19 44" src="https://user-images.githubusercontent.com/58670404/163354906-388e0fc6-ebd1-4ccf-b230-ac7aa87a1e29.png">
 
 ### Add Habits
-<img width="345" alt="Screenshot 2022-04-13 at 12 29 38" src="https://user-images.githubusercontent.com/58670404/163203916-de231e8e-eac0-498f-8bb5-9eb6a8a1e161.png">
+<img width="290" alt="Screenshot 2022-04-14 at 10 19 33" src="https://user-images.githubusercontent.com/58670404/163354998-931ea8c4-abad-4ba6-b132-3d12ff533c97.png">
 
 ## Test
 - Test coverage 88%
-<img width="557" alt="Screenshot 2022-04-13 at 14 59 46" src="https://user-images.githubusercontent.com/58670404/163197566-600b60ad-dac1-4e28-ac37-87fd8aa82357.png">
+<img width="500" alt="Screenshot 2022-04-13 at 14 59 46" src="https://user-images.githubusercontent.com/58670404/163197566-600b60ad-dac1-4e28-ac37-87fd8aa82357.png">
 
 
 ## Wins

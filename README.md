@@ -22,23 +22,23 @@ Do not run startDev and startTest simulanteously.
 
 ## Design
 ### Homepage
-<img width="290" alt="Screenshot 2022-04-13 at 17 49 08" src="https://user-images.githubusercontent.com/58670404/163230701-7736b3d2-84da-47f4-bc0c-a1161e4e2c5d.png">
+<p align="center"><img width="290" alt="Screenshot 2022-04-13 at 17 49 08" src="https://user-images.githubusercontent.com/58670404/163230701-7736b3d2-84da-47f4-bc0c-a1161e4e2c5d.png"></p>
 
 ### Register
-<p align="center"><img width="290" alt="Screenshot 2022-04-13 at 17 49 29" src="https://user-images.githubusercontent.com/58670404/163230829-b6372cb5-ffa3-4e5e-bd58-a5d87b1692f5.png"><p>
+<p align="center"><img width="290" alt="Screenshot 2022-04-13 at 17 49 29" src="https://user-images.githubusercontent.com/58670404/163230829-b6372cb5-ffa3-4e5e-bd58-a5d87b1692f5.png"></p>
 
 ### Login
-<img width="290" alt="Screenshot 2022-04-13 at 17 49 19" src="https://user-images.githubusercontent.com/58670404/163230791-9abdd48d-a23a-44e0-b437-d59997ded62d.png">
+<p align="center"><img width="290" alt="Screenshot 2022-04-13 at 17 49 19" src="https://user-images.githubusercontent.com/58670404/163230791-9abdd48d-a23a-44e0-b437-d59997ded62d.png"></p>
 
 ### Habits
-<img width="290" alt="Screenshot 2022-04-14 at 10 19 44" src="https://user-images.githubusercontent.com/58670404/163354906-388e0fc6-ebd1-4ccf-b230-ac7aa87a1e29.png">
+<p align="center"><img width="290" alt="Screenshot 2022-04-14 at 10 19 44" src="https://user-images.githubusercontent.com/58670404/163354906-388e0fc6-ebd1-4ccf-b230-ac7aa87a1e29.png"></p>
 
 ### Add Habits
-<img width="290" alt="Screenshot 2022-04-14 at 10 19 33" src="https://user-images.githubusercontent.com/58670404/163354998-931ea8c4-abad-4ba6-b132-3d12ff533c97.png">
+<p align="center"><img width="290" alt="Screenshot 2022-04-14 at 10 19 33" src="https://user-images.githubusercontent.com/58670404/163354998-931ea8c4-abad-4ba6-b132-3d12ff533c97.png"></p>
 
 ## Test
 - Test coverage 88%
-<img width="500" alt="Screenshot 2022-04-13 at 14 59 46" src="https://user-images.githubusercontent.com/58670404/163197566-600b60ad-dac1-4e28-ac37-87fd8aa82357.png">
+<p align="center"><img width="500" alt="Screenshot 2022-04-13 at 14 59 46" src="https://user-images.githubusercontent.com/58670404/163197566-600b60ad-dac1-4e28-ac37-87fd8aa82357.png"></p>
 
 
 ## Wins

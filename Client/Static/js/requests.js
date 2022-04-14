@@ -31,7 +31,7 @@ async function getAllPosts() {
     const getEmail = localStorage.getItem("email");
     const r = await fetch(`http://localhost:3000/habits/${getEmail}`, options);
     const r_json = await r.json();
-    if (r_json.err) {
+    if (r_json.err || r_json.message) {
       localStorage.clear();
       location.hash = "#";
     }

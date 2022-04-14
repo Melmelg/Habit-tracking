@@ -9,8 +9,10 @@ async function submitLoginForm(e) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formDataObj),
     };
+    console.log(formDataObj)
     const r = await fetch("http://localhost:3000/users/login", options);
     const data = await r.json();
+    console.log(data)
     storeLoginData(data.token);
   } catch (err) {
     console.log("Error logging in");
